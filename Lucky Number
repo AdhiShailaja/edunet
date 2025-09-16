@@ -1,0 +1,7 @@
+import random
+def lucky_number(name):
+   number=random.randint(1,100)
+   return f"{name}, your lucky number today is {number}!"
+if __name__ == "__main__":
+   user = input("Enter your name")
+  print(lucky_number(user))
